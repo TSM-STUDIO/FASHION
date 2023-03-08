@@ -1,0 +1,146 @@
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 56px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: end;
+}
+.header__sign-btn{
+    margin: 0 0 0 54px;
+    padding: 13px 22px;
+}
+.header__botton{
+    background-color: #F4F6F5;
+    max-width: 1720px;
+    height: 852px;
+    border-radius: 59px;
+}
+.header__left{
+    padding: 77px 0 0 119px;
+}
+.header__right{
+    position: relative;
+
+    display: flex;
+    align-items: end;
+    &::after{
+        content: "";
+
+        width: 889px;
+        height: 750px;
+
+        position: absolute;
+        top: 64px;
+        left: 0;
+
+        background-image: url("./../img/header__stars.svg");
+    }
+}
+.header__img{
+    padding-left: 50px;
+}
+.header__title{
+    position: relative;
+
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 120px;
+
+    max-width: 474px;
+    margin-bottom: 40px;
+
+    z-index: 1;
+
+    &::after{
+        position: absolute;
+
+        content: "";
+
+        width: 464.74px;
+        height: 112.14px;
+
+        top: 0;
+        left: -30px;
+
+        background: #FFFFFF;
+        transform: rotate(-2deg);
+
+        z-index: -1;
+    }
+    &::before{
+        position: absolute;
+
+        content: "";
+
+        width: 495.79px;
+        height: 117.55px;
+
+        bottom: 128px;
+        left: -18px;
+
+        background: #EBD96B;
+        transform: rotate(-2deg);
+
+        z-index: -1;
+    }
+}
+.header__text{
+    white-space: nowrap;
+
+    font-size: 32px;
+    font-weight: 400;
+
+    max-width: 606px;
+    margin-bottom: 32px;
+}
+
+.header__shop-btn-wrapp{
+    position: relative;
+
+    max-width: 445px;
+
+    display: flex;
+    justify-content: end;
+}
+.header__shop-btn{
+    padding: 19px 40px;
+    font-size: 30px;
+
+    &::before{
+        position: absolute;
+        left: 0;
+        top: 26px;
+
+        content: "";
+        width: 190px;
+        height: 32px;
+
+        background-image: url("./../img/petal.svg");
+    }
+}
+
+@media(max-width: 1400px){
+    .header__btn{
+        margin: 0 0 0 34px;
+    }
+}
+@media(max-width: 1192px){
+    .header__btn{
+        margin: 0 0 0 14px;
+    }
+}
+@media(max-width: 968px){
+    .btn{
+        display: none;
+    }
+    .nav{
+        display: none!important;
+    }
+    .burger-icon{
+        display: flex!important;
+    }
+}

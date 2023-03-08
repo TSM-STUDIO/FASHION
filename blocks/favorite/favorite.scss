@@ -1,0 +1,50 @@
+.favorite__title{
+    margin-bottom: 118px;
+}
+
+.favorite__item{
+    max-width: 484px;
+    height: 808px;
+}
+.favorite__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favorite__wrapp-img{
+    width: 100%;
+    height: 704px;
+}
+
+.favorite__img{
+    object-fit: cover;
+    
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+}
+.favorite__item-text{
+    margin-top: 28px;
+    margin-bottom: 7px;
+
+    font-size: 32px;
+    color: #191919;
+
+}
+.favorite__explore{
+    color: #7F7F7F;
+
+}
+.favorite__content{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.favorite__arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

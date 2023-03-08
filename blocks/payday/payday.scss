@@ -1,0 +1,100 @@
+.payday{
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+.payday__right{
+    position: relative;
+
+    display: flex;
+    align-items: end;
+
+    &::after{
+        content: "";
+
+        width: 889px;
+        height: 750px;
+
+        position: absolute;
+        top: 64px;
+        left: 101px;
+
+        background-image: url("./../img/payday__starts.svg");
+        background-repeat: no-repeat;
+    }
+
+}
+.payday__items{
+    height: 968px;
+}
+
+.payday__title{
+    position: relative;
+    
+    color: black;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 120px;
+
+    max-width: 593px;
+    margin-bottom: 33px;
+
+    z-index: 1;
+
+    &::after{
+        position: absolute;
+
+        content: "";
+
+        width: 464.74px;
+        height: 112.14px;
+
+        top: 0;
+        left: -30px;
+
+        background: #FFFFFF;
+        transform: rotate(-2deg);
+
+        z-index: -1;
+    }
+
+}
+.payday__left{
+    padding: 139px 0 0 80px;
+}
+
+.payday__text{
+    white-space: nowrap;
+
+    color: #231300;
+    font-size: 36.04px;
+    line-height: 52.32px;
+    font-weight: 5  00;
+
+    max-width: 643px;
+    margin-bottom: 40px;
+
+    p{
+        margin-bottom: 0;
+    }
+}
+.payday__date{
+    max-width: 491px;
+    
+    color: black;
+    font-size: 36px;
+    font-weight: 400;
+
+    margin-bottom: 51px;
+
+    span{
+    font-size: 36px;
+    font-weight: 700;
+    }
+
+}
+
+.payday__shop-btn{
+    padding: 24px 51px;
+
+    font-size: 28px;
+    font-weight: 600;
+}

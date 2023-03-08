@@ -1,0 +1,21 @@
+.form{
+    background: #FFFFFF;
+
+    height: 90px;
+    width: 574px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px ;
+}
+.form__btn{
+    font-size: 33px;
+    padding: 10px 30px;
+
+    margin-right: 19px;
+}
+.form__input{
+    margin-left: 18px;
+}

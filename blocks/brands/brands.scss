@@ -1,0 +1,17 @@
+.brands{
+    height: 186px;
+    background-color: #EBD96B;
+
+    display: flex;
+    align-items: center;
+}
+.brands__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+// Bootstrap
+@import "./vars.scss";
+@import "./bootstrap/functions";
+@import "./bootstrap/bootstrap-grid.scss";
+@import "./bootstrap/bootstrap-reboot.scss";
+
+// Blocks
+@import "./../blocks/page/page.scss";
+@import "./../blocks/header/header.scss";
+@import "./../blocks/nav/nav.scss";
+@import "./../blocks/btn/btn.scss";
+@import "./../blocks/burger-icon/burger-icon.scss";
+@import "./../blocks/brands/brands.scss";
+@import "./../blocks/arrivals/arrivals.scss";
+@import "./../blocks/catalog/catalog.scss";
+@import "./../blocks/payday/payday.scss";
+@import "./../blocks/title/title.scss";
+@import "./../blocks/favorite/favorite.scss";
+@import "./../blocks/app/app.scss";
+@import "./../blocks/footer/footer.scss";
+@import "./../blocks/form/form.scss";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}

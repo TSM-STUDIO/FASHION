@@ -1,0 +1,45 @@
+
+.app__left{
+    padding-top: 181px;
+    padding-left: 118px;
+}
+.app__title{
+    max-width: 507px;
+
+    font-size: 48px;
+    font-weight: 900;
+    color: black;
+    line-height: 150%;
+    letter-spacing: 2px;
+
+    margin-bottom: 41px;
+}
+.app__desc{
+    color: #7C7C7C;
+
+    margin-bottom: 65px;
+}
+.app__img{
+    margin-left: 19px;
+}
+.app__mobile{
+    position: relative;
+
+    padding-left: 300px;
+
+    z-index: 1;
+
+    &::after{
+        position: absolute;
+        top: 89px;
+        left: 194px;
+
+        content: "";
+
+        width: 671px;
+        height: 663px;
+
+        background-image: url("./../img/app__mobile-el.svg");
+        z-index: -1;
+    }
+}

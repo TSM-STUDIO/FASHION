@@ -1,0 +1,30 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__items{
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    gap: 65px;
+}
+
+.nav__item{
+    list-style-type: none;
+
+    font-size: 22px;
+}
+
+@media(max-width: 1400px){
+    .nav__items{
+        gap: 35px;
+    }
+}
+@media(max-width: 1192px){
+    .nav__items{
+        gap: 15px;
+    }
+}
